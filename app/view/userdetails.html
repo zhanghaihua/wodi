@@ -1,0 +1,45 @@
+<div id="mydeskdetails">
+	<h1>{{gamename}}</h1>
+{{#if gameexist}}
+	{{#if isLogin}}
+		 {{#if isHost}}
+		    <p class="marketing-byline">主持人：{{gamehost}}</p>
+		    <p class="marketing-byline">
+		     	{{#if isgaming}}
+		     	{{else}}
+		     	<form class="form-horizontal" id="randomword"> 
+		     		<input class="input-small" type="text" placeholder="卧底词" />
+					<input class="input-small" type="text" placeholder="平民词" />
+					<input type="hidden" value="0" name="autorandom">
+					<button class="btn" type="submit">词库机选</button>
+				</form>
+				{{/if}}
+			</p>
+		{{else}}
+			<p class="marketing-byline">用户姓名：{{gamehost}}</p>
+			<p class="marketing-byline">
+				{{#if isgaming}}
+				<h2>游戏进行中...</h2>
+				<p class="marketing-byline">
+				 <h2>状态：{{gamestatus}}</h2>
+				 </p>
+				  <p class="marketing-byline">
+				 	<h2>本轮描述词：<a href="http://www.baidu.com/s?word={{gameword}}&ie=utf-8">{{gameword}}</a></h2>
+				  </p>
+				{{else}}
+				<h2>等待游戏开始</h2>
+				{{/if}}
+			</p>
+		{{/if}}
+	{{else}}
+		<p class="marketing-byline">
+			<form id="addUser">
+				<input type="text" placeholder="用户姓名">
+		 		<button type="submit">加入游戏</button>
+			</form>
+		<p>		
+	{{/if}}
+{{/if}}
+</div>
+
+	 

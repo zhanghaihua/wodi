@@ -1,0 +1,58 @@
+NON BAE MODE
+BaseDir :/home/work/webapphi/app-fw/framework/
+DstDir :/home/work/webapphi/app-fw/framework/sumeru/app
+path.existsSync is now called `fs.existsSync`.
+2013-03-20T14:26:21.129Z |  runing [NetMessage] in server
+2013-03-20T14:26:21.332Z |  db config.server addr, port ,dbname 127.0.0.1 8819 test
+2013-03-20T14:26:21.396Z |  Loaded "IMAdap_Main_Controller" 
+2013-03-20T14:26:21.398Z |  Queue.js has been loaded..
+2013-03-20T14:26:21.416Z |  INIT : Loaded "IMAdap_Part_1" 
+2013-03-20T14:26:21.432Z |  Loaded "adapUtils" 
+2013-03-20T14:26:21.435Z |  Loaded "IMAdap_Part_2" 
+2013-03-20T14:26:21.440Z |  Loaded "IMAdap_Part_3" 
+2013-03-20T14:26:21.448Z |  Loaded "IMAdap_Part_4" 
+2013-03-20T14:26:21.449Z |  Assembled "IMAdapter"
+2013-03-20T14:26:21.452Z |  Loaded "tapAdapCmd" 
+2013-03-20T14:26:21.454Z |  [cmdMsgReceiver:L] Reg: lsCmds
+2013-03-20T14:26:21.454Z |  [cmdMsgReceiver:L] Reg: cmdTest4
+2013-03-20T14:26:21.454Z |  Loaded "cmdMsgReceiver" 
+2013-03-20T14:26:21.454Z |  [cmdMsgReceiver:L] Reg: multiCreate
+2013-03-20T14:26:21.454Z |  [cmdMsgReceiver:L] Reg: multiAdd
+2013-03-20T14:26:21.454Z |  [cmdMsgReceiver:L] Reg: multiQuit
+2013-03-20T14:26:21.454Z |  [cmdMsgReceiver:L] Reg: multiQuitAll
+2013-03-20T14:26:21.454Z |  [cmdMsgReceiver:L] Reg: groupFind
+2013-03-20T14:26:21.454Z |  [cmdMsgReceiver:L] Reg: getGroupJoinSecurityVerify
+2013-03-20T14:26:21.454Z |  [cmdMsgReceiver:L] Reg: getFriendDeleteSecurityVerify
+2013-03-20T14:26:21.454Z |  [cmdMsgReceiver:L] Reg: getFriendAddSecurityVerify
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: groupJoin
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: groupQuit
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: groupJoinAck
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: ackNotify
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: ackNotifyQuiet
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: groupAddMember
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: groupDeleteMember
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: groupAddManager
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: groupDeleteManager
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: contactsGet
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: friendAdd
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: friendDelete
+2013-03-20T14:26:21.455Z |  [cmdMsgReceiver:L] Reg: friendCreateMultiTeam
+2013-03-20T14:26:21.456Z |  [cmdMsgReceiver:L] Reg: friendFind
+2013-03-20T14:26:21.456Z |  [cmdMsgReceiver:L] Reg: friendAddAck
+2013-03-20T14:26:21.456Z |  [cmdMsgReceiver:L] Reg: friendAddAgreeAndAdd
+2013-03-20T14:26:21.653Z |  SockJS v0.3.5 bound to "/socket"
+2013-03-20T14:26:21.656Z |  File Server Listening on 8081
+2013-03-20T14:26:21.656Z |  Server Listening on 8012
+2013-03-20T14:26:32.246Z |  GET /socket/info 2ms 200
+2013-03-20T14:26:32.416Z |  GET /socket/420/yein2uwq/websocket 1ms (unfinished)
+2013-03-20T14:26:34.052Z |  register socket, id:8095mvoku5
+2013-03-20T14:26:34.052Z |  client connection: w15wdpl6ggcz
+2013-03-20T14:26:34.053Z |  socket connection , client w15wdpl6ggcz, socket connection :8095mvoku5
+2013-03-20T14:26:34.053Z |  send echo_from_server ok
+2013-03-20T14:26:34.282Z |  INFO 3rd PA checkAndKeepAlive : {"smr_id":"51495e431a1dba8c3e000003","clientId":"w15wdpl6ggcz","token":"wy926834","sessionId":"87fe6a6afded006f73c47d3054b2277899c5e75b","time":"1363762755584","userId":"","lastRequestTime":"1363762755584","info":{"imid":"37765792","firstuse":"0","baiduer":"1","baiduer_info":"131","visible_ip":"1185265116","debug_inner_ip":"0","userName":"wy926834","v_url":"","ack_code":"","bduss":"klaNlVRRnRrZFVaVm95T3drS1FWODlibXNyN0FlOTBuSGlucnBmTlJnUkQ2M0JSQUFBQUFBJCQAAAAAAAAAAAEAAACgQkACd3k5MjY4MzQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAENeSVFDXklRY","stoken":"17b571c7a08cd4bf26a22d2b57a22a82"},"isLogin":"1","_id":"51495e431a1dba8c3e000004"} : 26838698
+2013-03-20T14:26:34.282Z |  subscribe receiver..... auth-init 8095mvoku5
+2013-03-20T14:26:34.286Z |  INFO 3rd PA checkAndKeepAlive : {"smr_id":"51495e431a1dba8c3e000003","clientId":"w15wdpl6ggcz","token":"wy926834","sessionId":"87fe6a6afded006f73c47d3054b2277899c5e75b","time":"1363762755584","userId":"","lastRequestTime":"1363762755584","info":{"imid":"37765792","firstuse":"0","baiduer":"1","baiduer_info":"131","visible_ip":"1185265116","debug_inner_ip":"0","userName":"wy926834","v_url":"","ack_code":"","bduss":"klaNlVRRnRrZFVaVm95T3drS1FWODlibXNyN0FlOTBuSGlucnBmTlJnUkQ2M0JSQUFBQUFBJCQAAAAAAAAAAAEAAACgQkACd3k5MjY4MzQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAENeSVFDXklRY","stoken":"17b571c7a08cd4bf26a22d2b57a22a82"},"isLogin":"1","_id":"51495e431a1dba8c3e000004"} : 26838702
+2013-03-20T14:26:34.287Z |  send data_write_from_server ok 8095mvoku5
+2013-03-20T20:39:57.936Z |  client disconnection: w15wdpl6ggcz
+2013-03-20T20:39:57.936Z |  INFO : receive client disconnection : w15wdpl6ggcz
+2013-03-20T20:39:57.936Z |  socket disconnection, client w15wdpl6ggcz, socket disconnection :8095mvoku5

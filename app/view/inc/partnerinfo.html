@@ -1,0 +1,13 @@
+<tr class="success">
+	<td>
+		{{#if this.dead}}
+			冤死
+		{{else}}
+			<a class="btn" href="javascript: return false;" id='{{this.pid}}' deadid='{{this.pid}}'>投死</a> 
+		{{/if}}
+	</td>
+    <td>{{this.pname}}</td>
+    <td>{{this.role}}</td>
+    <td>{{this.gword}}</td>
+    <td>{{this.status}}</td>
+ </tr>

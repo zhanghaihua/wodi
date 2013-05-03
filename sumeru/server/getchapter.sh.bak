@@ -1,0 +1,7 @@
+#! /bin/bash
+
+#------
+
+
+
+grep -P ' µÚ' shashen.txt

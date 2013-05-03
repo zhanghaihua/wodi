@@ -1,0 +1,13 @@
+{{#if havegame}}
+  <div class="row-fluid" id="mygamelist">
+	{{#each data}}
+		{{> inc/gameinfo}}
+	{{/each}}
+</div>
+{{else}}
+ <p class="marketing-byline">
+	    <form id="addMygame">
+		 	<button type="submit" class="btn btn-primary">创建游戏</button>
+		</form>
+</p>
+{{/if}}

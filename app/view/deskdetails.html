@@ -1,0 +1,26 @@
+<div id="mydeskdetails">
+	<h1>谁是卧底</h1>
+    {{#if isHost}}
+     <p class="marketing-byline">
+     	{{#if isgaming}}
+     	<form id="endgame">
+	 		<button type="submit">结束游戏</button>
+		</form>
+     	{{else}}
+     	<form id="distribute">
+     		<input type="text" placeholder="卧底词">
+			<input type="text" placeholder="平民词">
+	 		<button type="submit">词条分发</button>
+		</form>
+		{{/if}}
+	</p>
+	{{else}}
+	<p class="marketing-byline">
+		{{#if isgaming}}
+		<h2>游戏进行中..</h2>
+		{{else}}
+		<h2>等待游戏开始</h2>
+		{{/if}}
+	</p>
+	{{/if}}
+</div>
